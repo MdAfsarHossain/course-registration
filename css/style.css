@@ -31,12 +31,80 @@ header h1 {
 }
 
 
+/* Card Styles */
+main {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
 
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 25px;
+    column-gap: 15px;
+    margin-bottom: 80px;
+    width: 70%;
+}
 
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.card-content img {
+    width: 100%;
+}
 
+.card-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0px 5px 0px;
+}
 
+.card-description {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3d3c3c;
+    text-align: justify;
+    margin: 10px 0px;
+}
 
+.card-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
 
+.card-price {
+    color: #3d3c3c;
+}
 
+.card-credit {
+    color: #3d3c3c;
+}
 
+.card-button {
+    background-color: rgb(78, 78, 235);
+    padding: 10px 0px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: rgb(130, 130, 240);
+    color: #fff;
+}
