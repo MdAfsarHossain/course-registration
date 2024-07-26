@@ -108,3 +108,76 @@ main {
     background-color: rgb(130, 130, 240);
     color: #fff;
 }
+
+
+/* Aside Container Styles */
+.aside-container {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.aside-content {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    border-radius: 5px ;
+}
+
+.credit-remaining {
+    font-size: 17px;
+    color: rgb(94, 94, 250);
+}
+
+hr {
+    margin: 15px 0px;
+    color: rgb(78, 76, 76);
+}
+
+.course-lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.course-title {
+    font-size: 22px;
+    color: #3d3c3c;
+}
+
+.course-lists ol  {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 15px;
+    color: gray;
+}
+
+.total-credit {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 15px;
+}
+
+.total-credit-title {
+    font-size: 16px;
+    color: #3d3c3c;
+}
+
+.total-credit-value {
+    font-size: 16px;
+    color: #3d3c3c;
+
+}
+
+.total-price {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.total-price-title {
+    font-size: 16px;
+    color: #3d3c3c;
+}
