@@ -1,0 +1,38 @@
+
+
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    header,
+    main {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    header h1 {
+        width: 80%;
+        margin: 20px auto;
+        font-size: 14px;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aside-container,
+    .cards-container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
